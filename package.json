@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/niztal/achilles/issues"
   },
-  "homepage": "https://github.com/niztal/achilles#readme"
+  "homepage": "https://github.com/niztal/achilles#readme",
+  "dependencies": {
+    "@projectstorm/react-canvas-core": "^6.0.0-beta.0",
+    "@projectstorm/react-diagrams": "^5.3.2",
+    "react": "^16.12.0"
+  }
 }
