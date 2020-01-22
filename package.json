@@ -1,0 +1,19 @@
+{
+  "name": "achilles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niztal/achilles.git"
+  },
+  "author": "nitzan.tal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niztal/achilles/issues"
+  },
+  "homepage": "https://github.com/niztal/achilles#readme"
+}
