@@ -1623,6 +1623,85 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@projectstorm/geometry@npm:^6.0.1-beta.7":
+  version: 6.0.1-beta.7
+  resolution: "@projectstorm/geometry@npm:6.0.1-beta.7"
+  peerDependencies:
+    mathjs: ^6.0.3
+  checksum: 76573c116768a86023aaf66ab6e0d392732b387170fb533d081c70c7bdc33fe221c50ce00f4296b038acebcce6f3b6dbd277ff176115d3e4ff3a8c7ea4dc375e
+  languageName: node
+  linkType: hard
+
+"@projectstorm/react-canvas-core@npm:^6.0.1-beta.7":
+  version: 6.0.1-beta.7
+  resolution: "@projectstorm/react-canvas-core@npm:6.0.1-beta.7"
+  dependencies:
+    "@projectstorm/geometry": ^6.0.1-beta.7
+  peerDependencies:
+    closest: ^0.0.1
+    lodash: 4.*
+    react: 16.*
+  checksum: 808f99c207e7c9ea6b0280225f88ec2c9d498b140aec7aebc9922c3a3135ba378d146c6e7a80a5ebd42c17f7f5a13339a3a6bc6771354553dc5b0ddaee7f6471
+  languageName: node
+  linkType: hard
+
+"@projectstorm/react-diagrams-core@npm:^6.0.1-beta.7":
+  version: 6.0.1-beta.7
+  resolution: "@projectstorm/react-diagrams-core@npm:6.0.1-beta.7"
+  dependencies:
+    "@projectstorm/geometry": ^6.0.1-beta.7
+    "@projectstorm/react-canvas-core": ^6.0.1-beta.7
+  peerDependencies:
+    closest: ^0.0.1
+    lodash: 4.*
+    react: 16.*
+    resize-observer-polyfill: ^1.5.1
+  checksum: dd76e64bcd5291548a9e9bc191bb459006b6912259c3442b5774956e3d8bb96ea65837e4419ee081d308138998d2e4634349975cf1fbd065dab42558bba5f3e1
+  languageName: node
+  linkType: hard
+
+"@projectstorm/react-diagrams-defaults@npm:^6.0.1-beta.7":
+  version: 6.0.1-beta.7
+  resolution: "@projectstorm/react-diagrams-defaults@npm:6.0.1-beta.7"
+  dependencies:
+    "@projectstorm/react-diagrams-core": ^6.0.1-beta.7
+  peerDependencies:
+    "@emotion/core": ^10.*
+    "@emotion/styled": ^10.*
+    lodash: 4.*
+    react: 16.*
+  checksum: 978fec7cd059b8ef26e5815f6aa805fbe308f4880c2e5a8a8c5c11ba563221384f68cbe42f3484f4e7891a8d68c013bf5900cbb08768abebc9704d6b514f3bf9
+  languageName: node
+  linkType: hard
+
+"@projectstorm/react-diagrams-routing@npm:^6.0.1-beta.7":
+  version: 6.0.1-beta.7
+  resolution: "@projectstorm/react-diagrams-routing@npm:6.0.1-beta.7"
+  dependencies:
+    "@projectstorm/geometry": ^6.0.1-beta.7
+    "@projectstorm/react-diagrams-core": ^6.0.1-beta.7
+    "@projectstorm/react-diagrams-defaults": ^6.0.1-beta.7
+  peerDependencies:
+    dagre: ^0.8.4
+    lodash: 4.*
+    pathfinding: ^0.4.18
+    paths-js: ^0.4.9
+    react: 16.*
+  checksum: 741909748f0fd71f684d968e4b8658a0978996b1ae2ecc0b8545d97657ae8687b24205476a1ccb8fb330f97293284524ff2a2711ab01bec63b079fef421e684a
+  languageName: node
+  linkType: hard
+
+"@projectstorm/react-diagrams@npm:next":
+  version: 6.0.1-beta.7
+  resolution: "@projectstorm/react-diagrams@npm:6.0.1-beta.7"
+  dependencies:
+    "@projectstorm/react-diagrams-core": ^6.0.1-beta.7
+    "@projectstorm/react-diagrams-defaults": ^6.0.1-beta.7
+    "@projectstorm/react-diagrams-routing": ^6.0.1-beta.7
+  checksum: ff8ee84209e6bd88bde3a1604aac4103078140717b7cbee735fb640c615af76775b36e9499fd588875f3bb2c2cfc4a9ec2aca70c27f56a0de302cef9cef6cf45
+  languageName: node
+  linkType: hard
+
 "@sheerun/mutationobserver-shim@npm:^0.3.2":
   version: 0.3.2
   resolution: "@sheerun/mutationobserver-shim@npm:0.3.2"
@@ -2301,6 +2380,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "achilles@workspace:."
   dependencies:
+    "@projectstorm/react-diagrams": next
     "@testing-library/jest-dom": ^4.2.4
     "@testing-library/react": ^9.3.2
     "@testing-library/user-event": ^7.1.2
