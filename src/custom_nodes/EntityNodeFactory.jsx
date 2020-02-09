@@ -13,6 +13,6 @@ export class EntityNodeFactory extends AbstractNodeFactory {
 	}
 
 	generateReactWidget(diagramEngine, node) {
-		return <EntityNodeWidget node={node} />;
+		return <EntityNodeWidget node={node}/>;
 	}
 }

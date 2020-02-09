@@ -1,21 +1,23 @@
 import { DefaultNodeModel } from '@projectstorm/react-diagrams';
 
 export class EntityNodeModel extends DefaultNodeModel {
-	constructor(options = {}) {
-        super(options);
+	constructor(entityName, fields) {
+        super(entityName);
         this.type = 'entity-node';
-		this.entityId = options.entityId || this.id;
+        this.fields = fields;
+        this.addInPort("-");
+        this.addOutPort("-");
 	}
 
 	serialize() {
 		return {
 			...super.serialize(),
-			entityId: this.options.entityId
+			fields: this.fields
 		};
 	}
 
 	deserialize(ob, engine) {
 		super.deserialize(ob, engine);
-		this.entityId = ob.entityId;
+		this.fields = ob.fields;
 	}
 }

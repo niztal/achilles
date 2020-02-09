@@ -11,9 +11,12 @@ export default () => {
 
 	const model = new DiagramModel();
 
-    var node1 = new EntityNodeModel("node1");
-    node1.addInPort("in");
-    node1.addOutPort("out");
+    var node1 = new EntityNodeModel("ProductOrder",
+        [
+            {name: "id", value: "order_123"},
+            {name: "description", value: "my order"}
+        ]
+    );
 	node1.setPosition(300, 100);
     var node2 = new EntityNodeModel("node2");
     node2.setPosition(200, 100);
