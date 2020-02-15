@@ -13,7 +13,7 @@ export class EntityNodeWidget extends BaseWidget {
 		if (fields) {
 			return fields.map((field) => {
 				return (
-					<div className="entity-field">{field.name}: {field.value}</div>
+					<div className="entity-field">{field.name}: {field.value.toString()}</div>
 				);
 			});
 		}

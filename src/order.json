@@ -1,0 +1,1682 @@
+{
+    "id": "ProductOrder_17640882258",
+    "href": "https://productorder-productorder-service:8080/productOrdering//productOrder/ProductOrder_17640882258",
+    "state": "Completed",
+    "orderDate": "2019-12-24T05:56:51Z",
+    "completionDate": "2019-12-24T05:57:13Z",
+    "requestedCompletionDate": "2019-12-24T05:56:51Z",
+    "orderPriceDate": "2019-12-24T05:57:03Z",
+    "isCustomerVisible": true,
+    "relatedParty": [
+        {
+            "id": "Customer_8544816628840856783",
+            "href": "/v2/relatedParty/Customer_8544816628840856783",
+            "role": "customer"
+        }
+    ],
+    "billingAccount": {
+        "id": "BillingAccount_1903806947439920340",
+        "href": "''/v2/TBA/BillingAccount_1903806947439920340"
+    },
+    "orderItem": [
+        {
+            "id": "ProductOrder_17640882258_OrderItem_88080365524",
+            "action": "add",
+            "state": "Completed",
+            "quantity": 1,
+            "readOnly": false,
+            "requestedCompletionDate": "2019-12-24T05:56:51Z",
+            "creationDate": "2019-12-24T05:56:38Z",
+            "itemPrice": [
+                {
+                    "id": "2f1e388e-4ee9-4608-a4ad-8ed507e5d0b2",
+                    "name": "Service charge",
+                    "recurringChargePeriod": "month",
+                    "recurringChargePeriodLength": 1,
+                    "priceType": "RC",
+                    "price": {
+                        "taxIncludedAmount": {
+                            "unit": "USD",
+                            "value": 40.0
+                        },
+                        "dutyFreeAmount": {
+                            "unit": "USD",
+                            "value": 36.37
+                        },
+                        "taxAmount": {
+                            "unit": "USD",
+                            "value": 3.63
+                        },
+                        "taxRate": 10.0,
+                        "appliedTax": [
+                            {
+                                "taxDefinition": {
+                                    "name": "Value added tax",
+                                    "taxRate": 10.0,
+                                    "taxType": "VAT",
+                                    "category": "Regular",
+                                    "taxJurisdiction": {
+                                        "name": "NA",
+                                        "level": "State",
+                                        "id": "0"
+                                    }
+                                },
+                                "taxAmount": {
+                                    "unit": "USD",
+                                    "value": 3.637
+                                },
+                                "taxableAmount": {
+                                    "unit": "USD",
+                                    "value": 36.37
+                                }
+                            }
+                        ]
+                    },
+                    "finalPrice": {
+                        "taxIncludedAmount": {
+                            "unit": "USD",
+                            "value": 40.0
+                        },
+                        "dutyFreeAmount": {
+                            "unit": "USD",
+                            "value": 36.37
+                        },
+                        "taxAmount": {
+                            "unit": "USD",
+                            "value": 3.63
+                        },
+                        "taxRate": 10.0,
+                        "appliedTax": [
+                            {
+                                "taxDefinition": {
+                                    "name": "Value added tax",
+                                    "taxRate": 10.0,
+                                    "taxType": "VAT",
+                                    "category": "Regular",
+                                    "taxJurisdiction": {
+                                        "name": "NA",
+                                        "level": "State",
+                                        "id": "0"
+                                    }
+                                },
+                                "taxAmount": {
+                                    "unit": "USD",
+                                    "value": 3.637
+                                },
+                                "taxableAmount": {
+                                    "unit": "USD",
+                                    "value": 36.37
+                                }
+                            }
+                        ]
+                    },
+                    "standalonePrice": {
+                        "taxIncludedAmount": {
+                            "unit": "USD",
+                            "value": 40.0
+                        },
+                        "dutyFreeAmount": {
+                            "unit": "USD",
+                            "value": 36.37
+                        },
+                        "taxAmount": {
+                            "unit": "USD",
+                            "value": 3.63
+                        },
+                        "taxRate": 10.0,
+                        "appliedTax": [
+                            {
+                                "taxDefinition": {
+                                    "name": "Value added tax",
+                                    "taxRate": 10.0,
+                                    "taxType": "VAT",
+                                    "category": "Regular",
+                                    "taxJurisdiction": {
+                                        "name": "NA",
+                                        "level": "State",
+                                        "id": "0"
+                                    }
+                                },
+                                "taxAmount": {
+                                    "unit": "USD",
+                                    "value": 3.637
+                                },
+                                "taxableAmount": {
+                                    "unit": "USD",
+                                    "value": 36.37
+                                }
+                            }
+                        ]
+                    },
+                    "taxIncluded": "Included",
+                    "role": "Price"
+                },
+                {
+                    "id": "cca49b86-3798-4e56-9a62-8a72302ee8b3",
+                    "name": "TV installation charge",
+                    "priceType": "OC",
+                    "price": {
+                        "taxIncludedAmount": {
+                            "value": 38.5
+                        },
+                        "dutyFreeAmount": {
+                            "value": 35
+                        },
+                        "taxAmount": {
+                            "value": 3.5
+                        },
+                        "taxRate": 10.0,
+                        "priceRecordId": "a3fc99ec-b954-44bf-8564-8a60ab8cba27",
+                        "impactingPriceParameter": [
+                            {
+                                "type": "occurrences",
+                                "name": "Occurrences",
+                                "value": "1"
+                            }
+                        ],
+                        "appliedTax": [
+                            {
+                                "taxDefinition": {
+                                    "name": "Value added tax",
+                                    "taxRate": 10.0,
+                                    "taxType": "VAT",
+                                    "category": "Regular",
+                                    "taxJurisdiction": {
+                                        "name": "NA",
+                                        "level": "State",
+                                        "id": "0"
+                                    }
+                                },
+                                "taxAmount": {
+                                    "value": 3.5
+                                },
+                                "taxableAmount": {
+                                    "value": 35
+                                }
+                            }
+                        ]
+                    },
+                    "finalPrice": {
+                        "taxIncludedAmount": {
+                            "value": 38.5
+                        },
+                        "dutyFreeAmount": {
+                            "value": 35
+                        },
+                        "taxAmount": {
+                            "value": 3.5
+                        },
+                        "taxRate": 10.0,
+                        "appliedTax": [
+                            {
+                                "taxDefinition": {
+                                    "name": "Value added tax",
+                                    "taxRate": 10.0,
+                                    "taxType": "VAT",
+                                    "category": "Regular",
+                                    "taxJurisdiction": {
+                                        "name": "NA",
+                                        "level": "State",
+                                        "id": "0"
+                                    }
+                                },
+                                "taxAmount": {
+                                    "value": 3.5
+                                },
+                                "taxableAmount": {
+                                    "value": 35
+                                }
+                            }
+                        ]
+                    },
+                    "standalonePrice": {
+                        "taxIncludedAmount": {
+                            "value": 38.5
+                        },
+                        "dutyFreeAmount": {
+                            "value": 35
+                        },
+                        "taxAmount": {
+                            "value": 3.5
+                        },
+                        "taxRate": 10.0,
+                        "priceRecordId": "a3fc99ec-b954-44bf-8564-8a60ab8cba27",
+                        "impactingPriceParameter": [
+                            {
+                                "type": "occurrences",
+                                "name": "Occurrences",
+                                "value": "1"
+                            }
+                        ],
+                        "appliedTax": [
+                            {
+                                "taxDefinition": {
+                                    "name": "Value added tax",
+                                    "taxRate": 10.0,
+                                    "taxType": "VAT",
+                                    "category": "Regular",
+                                    "taxJurisdiction": {
+                                        "name": "NA",
+                                        "level": "State",
+                                        "id": "0"
+                                    }
+                                },
+                                "taxAmount": {
+                                    "value": 3.5
+                                },
+                                "taxableAmount": {
+                                    "value": 35
+                                }
+                            }
+                        ]
+                    },
+                    "immediatePayOption": {
+                        "payImmediately": false
+                    },
+                    "taxIncluded": "Excluded",
+                    "role": "Price"
+                }
+            ],
+            "itemTotalPrice": [
+                {
+                    "recurringChargePeriod": "month",
+                    "recurringChargePeriodLength": 1,
+                    "priceType": "RC",
+                    "price": {
+                        "taxIncludedAmount": {
+                            "unit": "USD",
+                            "value": 51
+                        },
+                        "dutyFreeAmount": {
+                            "unit": "USD",
+                            "value": 46.37
+                        },
+                        "taxAmount": {
+                            "unit": "USD",
+                            "value": 4.63
+                        },
+                        "taxRate": 10.0
+                    },
+                    "finalPrice": {
+                        "taxIncludedAmount": {
+                            "unit": "USD",
+                            "value": 51
+                        },
+                        "dutyFreeAmount": {
+                            "unit": "USD",
+                            "value": 46.37
+                        },
+                        "taxAmount": {
+                            "unit": "USD",
+                            "value": 4.63
+                        },
+                        "taxRate": 10.0
+                    },
+                    "standalonePrice": {
+                        "taxIncludedAmount": {
+                            "unit": "USD",
+                            "value": 51
+                        },
+                        "dutyFreeAmount": {
+                            "unit": "USD",
+                            "value": 46.37
+                        },
+                        "taxAmount": {
+                            "unit": "USD",
+                            "value": 4.63
+                        },
+                        "taxRate": 10.0
+                    }
+                },
+                {
+                    "priceType": "OC",
+                    "price": {
+                        "taxIncludedAmount": {
+                            "value": 38.5
+                        },
+                        "dutyFreeAmount": {
+                            "value": 35
+                        },
+                        "taxAmount": {
+                            "value": 3.5
+                        },
+                        "taxRate": 10.0
+                    },
+                    "finalPrice": {
+                        "taxIncludedAmount": {
+                            "value": 38.5
+                        },
+                        "dutyFreeAmount": {
+                            "value": 35
+                        },
+                        "taxAmount": {
+                            "value": 3.5
+                        },
+                        "taxRate": 10.0
+                    },
+                    "standalonePrice": {
+                        "taxIncludedAmount": {
+                            "value": 38.5
+                        },
+                        "dutyFreeAmount": {
+                            "value": 35
+                        },
+                        "taxAmount": {
+                            "value": 3.5
+                        },
+                        "taxRate": 10.0
+                    },
+                    "immediatePayOption": {
+                        "payImmediately": false
+                    }
+                }
+            ],
+            "productOffering": {
+                "id": "dc20976e-6e5e-4df8-a852-183dc17ed881",
+                "href": "/v2/productOffering/dc20976e-6e5e-4df8-a852-183dc17ed881",
+                "name": "8K Cable TV",
+                "productOfferingType": "TV_Offer",
+                "productOfferingClassification": "subscriberMainOffer",
+                "primary": true,
+                "valueRank": 50
+            },
+            "product": {
+                "href": "/v2/productRefOrValue/",
+                "referenceId": "3bf9db61-ffdc-4118-81fa-954eb45bef9a",
+                "productRelationship": [
+                    {
+                        "type": "priceContribution",
+                        "product": {
+                            "referenceId": "3bf9db61-ffdc-4118-81fa-954eb45bef9a"
+                        }
+                    }
+                ]
+            },
+            "billingAccount": {
+                "id": "BillingAccount_1903806947439920340",
+                "href": "''/v2/TBA/BillingAccount_1903806947439920340"
+            },
+            "orderItem": [
+                {
+                    "id": "ProductOrder_17640882258_OrderItem_88095379298",
+                    "action": "add",
+                    "state": "Completed",
+                    "quantity": 1,
+                    "readOnly": false,
+                    "requestedCompletionDate": "2019-12-24T05:56:51Z",
+                    "creationDate": "2019-12-24T05:56:38Z",
+                    "productOffering": {
+                        "id": "20622cf3-c6b2-4237-9c0b-11a22e0b936e",
+                        "href": "/v2/productOffering/20622cf3-c6b2-4237-9c0b-11a22e0b936e",
+                        "name": "VOD Young - free 3 months",
+                        "productOfferingType": "VOD",
+                        "productOfferingClassification": "subscriberOffer",
+                        "primary": false,
+                        "durationPolicy": {
+                            "duration": {
+                                "units": "Months",
+                                "amount": 3
+                            },
+                            "startDatePolicy": "activationDate"
+                        }
+                    },
+                    "product": {
+                        "href": "/v2/productRefOrValue/",
+                        "referenceId": "4e579f93-88c2-4359-9ee3-d16a6de7ab85",
+                        "productRelationship": [
+                            {
+                                "type": "bundled",
+                                "product": {
+                                    "referenceId": "15727a65-682a-42b3-b5ff-f43d066ee58a",
+                                    "productSpecification": {
+                                        "id": "a225b75fc413406caff1cd9b65a1427a",
+                                        "name": "VOD Young",
+                                        "productSpecificationType": "210d440ff94a420bb19117ece0989ed9"
+                                    },
+                                    "characteristic": [
+                                        {
+                                            "name": "Available_on",
+                                            "value": "Any_Device",
+                                            "metadata": [
+                                                {
+                                                    "name": "changeDate",
+                                                    "value": "2019-12-24T05:56:46.956Z",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "salesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "originalSalesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "userId",
+                                                    "value": "digitalexp-api-app-id",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "productQualification",
+                                                    "value": "02d8cd8eea2d44e58f2c6ced71bba6ca;2f4f41f2-10ae-4eb8-8e8c-d9767a62b81b;8b3e1ff3945c4814b46f6c4e14d23271;eac3af3dedae4dca872bfbe2a3b8b5c0",
+                                                    "metadataType": "Operational"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "productRelationship": [
+                                        {
+                                            "type": "enabledBy",
+                                            "product": {
+                                                "referenceId": "1e61099b-e91c-41a7-a8d4-4297b797e62c"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "subscriptionRelation",
+                                "product": {
+                                    "referenceId": "3bf9db61-ffdc-4118-81fa-954eb45bef9a"
+                                }
+                            }
+                        ]
+                    },
+                    "modifyReason": [
+                        {
+                            "name": "Customer Request",
+                            "action": "add"
+                        }
+                    ],
+                    "metadata": [
+                        {
+                            "name": "changeDate",
+                            "value": "2019-12-24T05:56:46.956Z",
+                            "metadataType": "Operational"
+                        },
+                        {
+                            "name": "salesChannel",
+                            "value": "Retail",
+                            "metadataType": "Operational"
+                        },
+                        {
+                            "name": "originalSalesChannel",
+                            "value": "Retail",
+                            "metadataType": "Operational"
+                        },
+                        {
+                            "name": "userId",
+                            "value": "digitalexp-api-app-id",
+                            "metadataType": "Operational"
+                        },
+                        {
+                            "name": "productQualification",
+                            "value": "02d8cd8eea2d44e58f2c6ced71bba6ca;2f4f41f2-10ae-4eb8-8e8c-d9767a62b81b;8b3e1ff3945c4814b46f6c4e14d23271;eac3af3dedae4dca872bfbe2a3b8b5c0",
+                            "metadataType": "Operational"
+                        }
+                    ],
+                    "externalIdentifier": [
+                        {
+                            "type": "amdocsInternal",
+                            "id": "ShoppingCart_01555101-4454-44bc-a0a8-2220a8800387_CartItem_15151050-5440-4f8d-8008-0220a0800649"
+                        }
+                    ]
+                },
+                {
+                    "id": "ProductOrder_17640882258_OrderItem_88107451377",
+                    "action": "add",
+                    "state": "Completed",
+                    "quantity": 1,
+                    "readOnly": false,
+                    "requestedCompletionDate": "2019-12-24T05:56:51Z",
+                    "creationDate": "2019-12-24T05:56:38Z",
+                    "productOffering": {
+                        "id": "be50ec0b-feff-4bca-9a68-f360fce56013",
+                        "href": "/v2/productOffering/be50ec0b-feff-4bca-9a68-f360fce56013",
+                        "name": "8K Cable TV Plan",
+                        "productOfferingType": "Cable_TV_Plan",
+                        "productOfferingClassification": "subscriberOffer",
+                        "primary": false
+                    },
+                    "product": {
+                        "href": "/v2/productRefOrValue/",
+                        "referenceId": "d1b97a9c-e5ad-4b26-a858-6bcdcf55c3aa",
+                        "productRelationship": [
+                            {
+                                "type": "bundled",
+                                "product": {
+                                    "referenceId": "1e61099b-e91c-41a7-a8d4-4297b797e62c",
+                                    "productSpecification": {
+                                        "id": "5a73e604ecf14014aa46fdb551fb4cff",
+                                        "name": "TV",
+                                        "productSpecificationType": "5b159b175f18456d9afbae14c8ef3061"
+                                    },
+                                    "characteristic": [
+                                        {
+                                            "name": "Technology",
+                                            "value": "Cable",
+                                            "metadata": [
+                                                {
+                                                    "name": "changeDate",
+                                                    "value": "2019-12-24T05:56:46.956Z",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "salesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "originalSalesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "userId",
+                                                    "value": "digitalexp-api-app-id",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "productQualification",
+                                                    "value": "02d8cd8eea2d44e58f2c6ced71bba6ca;2f4f41f2-10ae-4eb8-8e8c-d9767a62b81b;8b3e1ff3945c4814b46f6c4e14d23271;eac3af3dedae4dca872bfbe2a3b8b5c0",
+                                                    "metadataType": "Operational"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Installation_Method",
+                                            "value": "Professional_Installation",
+                                            "metadata": [
+                                                {
+                                                    "name": "changeDate",
+                                                    "value": "2019-12-24T05:56:46.956Z",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "salesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "originalSalesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "userId",
+                                                    "value": "digitalexp-api-app-id",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "productQualification",
+                                                    "value": "02d8cd8eea2d44e58f2c6ced71bba6ca;2f4f41f2-10ae-4eb8-8e8c-d9767a62b81b;8b3e1ff3945c4814b46f6c4e14d23271;eac3af3dedae4dca872bfbe2a3b8b5c0",
+                                                    "metadataType": "Operational"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "place": [
+                                        {
+                                            "id": "GeographicAddress_10114110-1450-46a7-8228-2a82a0280d97",
+                                            "role": "installation"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "subscriptionRelation",
+                                "product": {
+                                    "referenceId": "3bf9db61-ffdc-4118-81fa-954eb45bef9a"
+                                }
+                            }
+                        ]
+                    },
+                    "modifyReason": [
+                        {
+                            "name": "Customer Request",
+                            "action": "add"
+                        }
+                    ],
+                    "metadata": [
+                        {
+                            "name": "changeDate",
+                            "value": "2019-12-24T05:56:46.956Z",
+                            "metadataType": "Operational"
+                        },
+                        {
+                            "name": "salesChannel",
+                            "value": "Retail",
+                            "metadataType": "Operational"
+                        },
+                        {
+                            "name": "originalSalesChannel",
+                            "value": "Retail",
+                            "metadataType": "Operational"
+                        },
+                        {
+                            "name": "userId",
+                            "value": "digitalexp-api-app-id",
+                            "metadataType": "Operational"
+                        },
+                        {
+                            "name": "productQualification",
+                            "value": "02d8cd8eea2d44e58f2c6ced71bba6ca;2f4f41f2-10ae-4eb8-8e8c-d9767a62b81b;8b3e1ff3945c4814b46f6c4e14d23271;eac3af3dedae4dca872bfbe2a3b8b5c0",
+                            "metadataType": "Operational"
+                        }
+                    ],
+                    "externalIdentifier": [
+                        {
+                            "type": "amdocsInternal",
+                            "id": "ShoppingCart_01555101-4454-44bc-a0a8-2220a8800387_CartItem_04511455-5114-4f8b-a00a-2aa208820648"
+                        }
+                    ]
+                },
+                {
+                    "id": "ProductOrder_17640882258_OrderItem_88117186697",
+                    "action": "add",
+                    "state": "Completed",
+                    "quantity": 1,
+                    "readOnly": false,
+                    "requestedCompletionDate": "2019-12-24T05:56:51Z",
+                    "creationDate": "2019-12-24T05:56:38Z",
+                    "itemPrice": [
+                        {
+                            "id": "57392eb8-00f8-45c1-8dba-7785b039803e",
+                            "name": "Receiver - rent",
+                            "description": "A recurring charge for renting a receiver",
+                            "recurringChargePeriod": "month",
+                            "recurringChargePeriodLength": 1,
+                            "priceType": "RC",
+                            "price": {
+                                "taxIncludedAmount": {
+                                    "value": 5.5
+                                },
+                                "dutyFreeAmount": {
+                                    "value": 5
+                                },
+                                "taxAmount": {
+                                    "value": 0.5
+                                },
+                                "taxRate": 10.0,
+                                "priceRecordId": "fc685e4b-1f59-4bfc-bea1-77dead439e79",
+                                "impactingPriceParameter": [
+                                    {
+                                        "type": "occurrences",
+                                        "name": "Occurrences",
+                                        "value": "1"
+                                    }
+                                ],
+                                "appliedTax": [
+                                    {
+                                        "taxDefinition": {
+                                            "name": "Value added tax",
+                                            "taxRate": 10.0,
+                                            "taxType": "VAT",
+                                            "category": "Regular",
+                                            "taxJurisdiction": {
+                                                "name": "NA",
+                                                "level": "State",
+                                                "id": "0"
+                                            }
+                                        },
+                                        "taxAmount": {
+                                            "value": 0.5
+                                        },
+                                        "taxableAmount": {
+                                            "value": 5
+                                        }
+                                    }
+                                ]
+                            },
+                            "finalPrice": {
+                                "taxIncludedAmount": {
+                                    "value": 5.5
+                                },
+                                "dutyFreeAmount": {
+                                    "value": 5
+                                },
+                                "taxAmount": {
+                                    "value": 0.5
+                                },
+                                "taxRate": 10.0,
+                                "appliedTax": [
+                                    {
+                                        "taxDefinition": {
+                                            "name": "Value added tax",
+                                            "taxRate": 10.0,
+                                            "taxType": "VAT",
+                                            "category": "Regular",
+                                            "taxJurisdiction": {
+                                                "name": "NA",
+                                                "level": "State",
+                                                "id": "0"
+                                            }
+                                        },
+                                        "taxAmount": {
+                                            "value": 0.5
+                                        },
+                                        "taxableAmount": {
+                                            "value": 5
+                                        }
+                                    }
+                                ]
+                            },
+                            "standalonePrice": {
+                                "taxIncludedAmount": {
+                                    "value": 5.5
+                                },
+                                "dutyFreeAmount": {
+                                    "value": 5
+                                },
+                                "taxAmount": {
+                                    "value": 0.5
+                                },
+                                "taxRate": 10.0,
+                                "priceRecordId": "fc685e4b-1f59-4bfc-bea1-77dead439e79",
+                                "impactingPriceParameter": [
+                                    {
+                                        "type": "occurrences",
+                                        "name": "Occurrences",
+                                        "value": "1"
+                                    }
+                                ],
+                                "appliedTax": [
+                                    {
+                                        "taxDefinition": {
+                                            "name": "Value added tax",
+                                            "taxRate": 10.0,
+                                            "taxType": "VAT",
+                                            "category": "Regular",
+                                            "taxJurisdiction": {
+                                                "name": "NA",
+                                                "level": "State",
+                                                "id": "0"
+                                            }
+                                        },
+                                        "taxAmount": {
+                                            "value": 0.5
+                                        },
+                                        "taxableAmount": {
+                                            "value": 5
+                                        }
+                                    }
+                                ]
+                            },
+                            "taxIncluded": "Excluded",
+                            "role": "Price"
+                        }
+                    ],
+                    "itemTotalPrice": [
+                        {
+                            "recurringChargePeriod": "month",
+                            "recurringChargePeriodLength": 1,
+                            "priceType": "RC",
+                            "price": {
+                                "taxIncludedAmount": {
+                                    "value": 5.5
+                                },
+                                "dutyFreeAmount": {
+                                    "value": 5
+                                },
+                                "taxAmount": {
+                                    "value": 0.5
+                                },
+                                "taxRate": 10.0
+                            },
+                            "finalPrice": {
+                                "taxIncludedAmount": {
+                                    "value": 5.5
+                                },
+                                "dutyFreeAmount": {
+                                    "value": 5
+                                },
+                                "taxAmount": {
+                                    "value": 0.5
+                                },
+                                "taxRate": 10.0
+                            },
+                            "standalonePrice": {
+                                "taxIncludedAmount": {
+                                    "value": 5.5
+                                },
+                                "dutyFreeAmount": {
+                                    "value": 5
+                                },
+                                "taxAmount": {
+                                    "value": 0.5
+                                },
+                                "taxRate": 10.0
+                            }
+                        }
+                    ],
+                    "productOffering": {
+                        "id": "5b5b70ae-2ab2-4c3b-85ce-2f638716b1e0",
+                        "href": "/v2/productOffering/5b5b70ae-2ab2-4c3b-85ce-2f638716b1e0",
+                        "name": "8K UHD Receiver - rent",
+                        "productOfferingType": "Rented_TV_Receiver",
+                        "productOfferingClassification": "subscriberOffer",
+                        "primary": true
+                    },
+                    "product": {
+                        "href": "/v2/productRefOrValue/",
+                        "referenceId": "af04c7bd-f05f-412c-a7c3-4097b43d7435",
+                        "productRelationship": [
+                            {
+                                "type": "bundled",
+                                "product": {
+                                    "referenceId": "29f8675a-9d62-45bc-bf28-48bf68c7eb3a",
+                                    "productSpecification": {
+                                        "id": "2e316680-06ac-4084-a8b3-a8401b14919a",
+                                        "name": "8K UHD Receiver",
+                                        "productSpecificationType": "0bec2b1153fb41e79bccb0f7461a7aae"
+                                    },
+                                    "characteristic": [
+                                        {
+                                            "name": "Installation_Method",
+                                            "value": "Professional_Installation",
+                                            "metadata": [
+                                                {
+                                                    "name": "changeDate",
+                                                    "value": "2019-12-24T05:56:46.956Z",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "salesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "originalSalesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "userId",
+                                                    "value": "digitalexp-api-app-id",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "productQualification",
+                                                    "value": "02d8cd8eea2d44e58f2c6ced71bba6ca;2f4f41f2-10ae-4eb8-8e8c-d9767a62b81b;8b3e1ff3945c4814b46f6c4e14d23271;eac3af3dedae4dca872bfbe2a3b8b5c0",
+                                                    "metadataType": "Operational"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Content_Quality",
+                                            "value": "8K",
+                                            "metadata": [
+                                                {
+                                                    "name": "changeDate",
+                                                    "value": "2019-12-24T05:56:46.956Z",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "salesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "originalSalesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "userId",
+                                                    "value": "digitalexp-api-app-id",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "productQualification",
+                                                    "value": "02d8cd8eea2d44e58f2c6ced71bba6ca;2f4f41f2-10ae-4eb8-8e8c-d9767a62b81b;8b3e1ff3945c4814b46f6c4e14d23271;eac3af3dedae4dca872bfbe2a3b8b5c0",
+                                                    "metadataType": "Operational"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Recording_Service",
+                                            "value": "False",
+                                            "metadata": [
+                                                {
+                                                    "name": "changeDate",
+                                                    "value": "2019-12-24T05:56:46.956Z",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "salesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "originalSalesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "userId",
+                                                    "value": "digitalexp-api-app-id",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "productQualification",
+                                                    "value": "02d8cd8eea2d44e58f2c6ced71bba6ca;2f4f41f2-10ae-4eb8-8e8c-d9767a62b81b;8b3e1ff3945c4814b46f6c4e14d23271;eac3af3dedae4dca872bfbe2a3b8b5c0",
+                                                    "metadataType": "Operational"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Delivery_Method",
+                                            "value": "Indirect_Delivery_Shipping",
+                                            "metadata": [
+                                                {
+                                                    "name": "changeDate",
+                                                    "value": "2019-12-24T05:56:46.956Z",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "salesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "originalSalesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "userId",
+                                                    "value": "digitalexp-api-app-id",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "productQualification",
+                                                    "value": "02d8cd8eea2d44e58f2c6ced71bba6ca;2f4f41f2-10ae-4eb8-8e8c-d9767a62b81b;8b3e1ff3945c4814b46f6c4e14d23271;eac3af3dedae4dca872bfbe2a3b8b5c0",
+                                                    "metadataType": "Operational"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Service_Technology",
+                                            "value": "Cable",
+                                            "metadata": [
+                                                {
+                                                    "name": "changeDate",
+                                                    "value": "2019-12-24T05:56:46.956Z",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "salesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "originalSalesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "userId",
+                                                    "value": "digitalexp-api-app-id",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "productQualification",
+                                                    "value": "02d8cd8eea2d44e58f2c6ced71bba6ca;2f4f41f2-10ae-4eb8-8e8c-d9767a62b81b;8b3e1ff3945c4814b46f6c4e14d23271;eac3af3dedae4dca872bfbe2a3b8b5c0",
+                                                    "metadataType": "Operational"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "productRelationship": [
+                                        {
+                                            "type": "enabledBy",
+                                            "product": {
+                                                "referenceId": "1e61099b-e91c-41a7-a8d4-4297b797e62c"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "subscriptionRelation",
+                                "product": {
+                                    "referenceId": "3bf9db61-ffdc-4118-81fa-954eb45bef9a"
+                                }
+                            },
+                            {
+                                "type": "priceContribution",
+                                "product": {
+                                    "referenceId": "af04c7bd-f05f-412c-a7c3-4097b43d7435"
+                                }
+                            }
+                        ]
+                    },
+                    "modifyReason": [
+                        {
+                            "name": "Customer Request",
+                            "action": "add"
+                        }
+                    ],
+                    "metadata": [
+                        {
+                            "name": "changeDate",
+                            "value": "2019-12-24T05:56:46.956Z",
+                            "metadataType": "Operational"
+                        },
+                        {
+                            "name": "salesChannel",
+                            "value": "Retail",
+                            "metadataType": "Operational"
+                        },
+                        {
+                            "name": "originalSalesChannel",
+                            "value": "Retail",
+                            "metadataType": "Operational"
+                        },
+                        {
+                            "name": "userId",
+                            "value": "digitalexp-api-app-id",
+                            "metadataType": "Operational"
+                        },
+                        {
+                            "name": "productQualification",
+                            "value": "02d8cd8eea2d44e58f2c6ced71bba6ca;2f4f41f2-10ae-4eb8-8e8c-d9767a62b81b;8b3e1ff3945c4814b46f6c4e14d23271;eac3af3dedae4dca872bfbe2a3b8b5c0",
+                            "metadataType": "Operational"
+                        }
+                    ],
+                    "stock": [
+                        {
+                            "stockAvailabilityStatus": "inStock",
+                            "stockAvailabilityQuantity": 328
+                        }
+                    ],
+                    "stockReservation": [
+                        {
+                            "id": "9203413671"
+                        }
+                    ],
+                    "externalIdentifier": [
+                        {
+                            "type": "amdocsInternal",
+                            "id": "ShoppingCart_01555101-4454-44bc-a0a8-2220a8800387_CartItem_15015004-5005-4ecf-a0a0-802282a00469"
+                        }
+                    ]
+                },
+                {
+                    "id": "ProductOrder_17640882258_OrderItem_88125345073",
+                    "action": "add",
+                    "state": "Completed",
+                    "quantity": 1,
+                    "readOnly": false,
+                    "requestedCompletionDate": "2019-12-24T05:56:51Z",
+                    "creationDate": "2019-12-24T05:56:38Z",
+                    "itemPrice": [
+                        {
+                            "id": "57392eb8-00f8-45c1-8dba-7785b039803e",
+                            "name": "Receiver - rent",
+                            "description": "A recurring charge for renting a receiver",
+                            "recurringChargePeriod": "month",
+                            "recurringChargePeriodLength": 1,
+                            "priceType": "RC",
+                            "price": {
+                                "taxIncludedAmount": {
+                                    "value": 5.5
+                                },
+                                "dutyFreeAmount": {
+                                    "value": 5
+                                },
+                                "taxAmount": {
+                                    "value": 0.5
+                                },
+                                "taxRate": 10.0,
+                                "priceRecordId": "fc685e4b-1f59-4bfc-bea1-77dead439e79",
+                                "impactingPriceParameter": [
+                                    {
+                                        "type": "occurrences",
+                                        "name": "Occurrences",
+                                        "value": "2"
+                                    }
+                                ],
+                                "appliedTax": [
+                                    {
+                                        "taxDefinition": {
+                                            "name": "Value added tax",
+                                            "taxRate": 10.0,
+                                            "taxType": "VAT",
+                                            "category": "Regular",
+                                            "taxJurisdiction": {
+                                                "name": "NA",
+                                                "level": "State",
+                                                "id": "0"
+                                            }
+                                        },
+                                        "taxAmount": {
+                                            "value": 0.5
+                                        },
+                                        "taxableAmount": {
+                                            "value": 5
+                                        }
+                                    }
+                                ]
+                            },
+                            "finalPrice": {
+                                "taxIncludedAmount": {
+                                    "value": 5.5
+                                },
+                                "dutyFreeAmount": {
+                                    "value": 5
+                                },
+                                "taxAmount": {
+                                    "value": 0.5
+                                },
+                                "taxRate": 10.0,
+                                "appliedTax": [
+                                    {
+                                        "taxDefinition": {
+                                            "name": "Value added tax",
+                                            "taxRate": 10.0,
+                                            "taxType": "VAT",
+                                            "category": "Regular",
+                                            "taxJurisdiction": {
+                                                "name": "NA",
+                                                "level": "State",
+                                                "id": "0"
+                                            }
+                                        },
+                                        "taxAmount": {
+                                            "value": 0.5
+                                        },
+                                        "taxableAmount": {
+                                            "value": 5
+                                        }
+                                    }
+                                ]
+                            },
+                            "standalonePrice": {
+                                "taxIncludedAmount": {
+                                    "value": 5.5
+                                },
+                                "dutyFreeAmount": {
+                                    "value": 5
+                                },
+                                "taxAmount": {
+                                    "value": 0.5
+                                },
+                                "taxRate": 10.0,
+                                "priceRecordId": "fc685e4b-1f59-4bfc-bea1-77dead439e79",
+                                "impactingPriceParameter": [
+                                    {
+                                        "type": "occurrences",
+                                        "name": "Occurrences",
+                                        "value": "2"
+                                    }
+                                ],
+                                "appliedTax": [
+                                    {
+                                        "taxDefinition": {
+                                            "name": "Value added tax",
+                                            "taxRate": 10.0,
+                                            "taxType": "VAT",
+                                            "category": "Regular",
+                                            "taxJurisdiction": {
+                                                "name": "NA",
+                                                "level": "State",
+                                                "id": "0"
+                                            }
+                                        },
+                                        "taxAmount": {
+                                            "value": 0.5
+                                        },
+                                        "taxableAmount": {
+                                            "value": 5
+                                        }
+                                    }
+                                ]
+                            },
+                            "taxIncluded": "Excluded",
+                            "role": "Price"
+                        }
+                    ],
+                    "itemTotalPrice": [
+                        {
+                            "recurringChargePeriod": "month",
+                            "recurringChargePeriodLength": 1,
+                            "priceType": "RC",
+                            "price": {
+                                "taxIncludedAmount": {
+                                    "value": 5.5
+                                },
+                                "dutyFreeAmount": {
+                                    "value": 5
+                                },
+                                "taxAmount": {
+                                    "value": 0.5
+                                },
+                                "taxRate": 10.0
+                            },
+                            "finalPrice": {
+                                "taxIncludedAmount": {
+                                    "value": 5.5
+                                },
+                                "dutyFreeAmount": {
+                                    "value": 5
+                                },
+                                "taxAmount": {
+                                    "value": 0.5
+                                },
+                                "taxRate": 10.0
+                            },
+                            "standalonePrice": {
+                                "taxIncludedAmount": {
+                                    "value": 5.5
+                                },
+                                "dutyFreeAmount": {
+                                    "value": 5
+                                },
+                                "taxAmount": {
+                                    "value": 0.5
+                                },
+                                "taxRate": 10.0
+                            }
+                        }
+                    ],
+                    "productOffering": {
+                        "id": "5b5b70ae-2ab2-4c3b-85ce-2f638716b1e0",
+                        "href": "/v2/productOffering/5b5b70ae-2ab2-4c3b-85ce-2f638716b1e0",
+                        "name": "8K UHD Receiver - rent",
+                        "productOfferingType": "Rented_TV_Receiver",
+                        "productOfferingClassification": "subscriberOffer",
+                        "primary": true
+                    },
+                    "product": {
+                        "href": "/v2/productRefOrValue/",
+                        "referenceId": "91356c77-ac03-4e3d-9d78-6e2a06abfae9",
+                        "productRelationship": [
+                            {
+                                "type": "bundled",
+                                "product": {
+                                    "referenceId": "4fe779c6-e5c4-4f37-9c6a-513bceb0e6fe",
+                                    "productSpecification": {
+                                        "id": "2e316680-06ac-4084-a8b3-a8401b14919a",
+                                        "name": "8K UHD Receiver",
+                                        "productSpecificationType": "0bec2b1153fb41e79bccb0f7461a7aae"
+                                    },
+                                    "characteristic": [
+                                        {
+                                            "name": "Installation_Method",
+                                            "value": "Professional_Installation",
+                                            "metadata": [
+                                                {
+                                                    "name": "changeDate",
+                                                    "value": "2019-12-24T05:56:46.956Z",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "salesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "originalSalesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "userId",
+                                                    "value": "digitalexp-api-app-id",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "productQualification",
+                                                    "value": "02d8cd8eea2d44e58f2c6ced71bba6ca;2f4f41f2-10ae-4eb8-8e8c-d9767a62b81b;8b3e1ff3945c4814b46f6c4e14d23271;eac3af3dedae4dca872bfbe2a3b8b5c0",
+                                                    "metadataType": "Operational"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Content_Quality",
+                                            "value": "8K",
+                                            "metadata": [
+                                                {
+                                                    "name": "changeDate",
+                                                    "value": "2019-12-24T05:56:46.956Z",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "salesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "originalSalesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "userId",
+                                                    "value": "digitalexp-api-app-id",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "productQualification",
+                                                    "value": "02d8cd8eea2d44e58f2c6ced71bba6ca;2f4f41f2-10ae-4eb8-8e8c-d9767a62b81b;8b3e1ff3945c4814b46f6c4e14d23271;eac3af3dedae4dca872bfbe2a3b8b5c0",
+                                                    "metadataType": "Operational"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Recording_Service",
+                                            "value": "False",
+                                            "metadata": [
+                                                {
+                                                    "name": "changeDate",
+                                                    "value": "2019-12-24T05:56:46.956Z",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "salesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "originalSalesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "userId",
+                                                    "value": "digitalexp-api-app-id",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "productQualification",
+                                                    "value": "02d8cd8eea2d44e58f2c6ced71bba6ca;2f4f41f2-10ae-4eb8-8e8c-d9767a62b81b;8b3e1ff3945c4814b46f6c4e14d23271;eac3af3dedae4dca872bfbe2a3b8b5c0",
+                                                    "metadataType": "Operational"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Delivery_Method",
+                                            "value": "Indirect_Delivery_Shipping",
+                                            "metadata": [
+                                                {
+                                                    "name": "changeDate",
+                                                    "value": "2019-12-24T05:56:46.956Z",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "salesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "originalSalesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "userId",
+                                                    "value": "digitalexp-api-app-id",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "productQualification",
+                                                    "value": "02d8cd8eea2d44e58f2c6ced71bba6ca;2f4f41f2-10ae-4eb8-8e8c-d9767a62b81b;8b3e1ff3945c4814b46f6c4e14d23271;eac3af3dedae4dca872bfbe2a3b8b5c0",
+                                                    "metadataType": "Operational"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Service_Technology",
+                                            "value": "Cable",
+                                            "metadata": [
+                                                {
+                                                    "name": "changeDate",
+                                                    "value": "2019-12-24T05:56:46.956Z",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "salesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "originalSalesChannel",
+                                                    "value": "Retail",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "userId",
+                                                    "value": "digitalexp-api-app-id",
+                                                    "metadataType": "Operational"
+                                                },
+                                                {
+                                                    "name": "productQualification",
+                                                    "value": "02d8cd8eea2d44e58f2c6ced71bba6ca;2f4f41f2-10ae-4eb8-8e8c-d9767a62b81b;8b3e1ff3945c4814b46f6c4e14d23271;eac3af3dedae4dca872bfbe2a3b8b5c0",
+                                                    "metadataType": "Operational"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "productRelationship": [
+                                        {
+                                            "type": "enabledBy",
+                                            "product": {
+                                                "referenceId": "1e61099b-e91c-41a7-a8d4-4297b797e62c"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "subscriptionRelation",
+                                "product": {
+                                    "referenceId": "3bf9db61-ffdc-4118-81fa-954eb45bef9a"
+                                }
+                            },
+                            {
+                                "type": "priceContribution",
+                                "product": {
+                                    "referenceId": "91356c77-ac03-4e3d-9d78-6e2a06abfae9"
+                                }
+                            },
+                            {
+                                "type": "priceContribution",
+                                "product": {
+                                    "referenceId": "af04c7bd-f05f-412c-a7c3-4097b43d7435"
+                                }
+                            }
+                        ]
+                    },
+                    "modifyReason": [
+                        {
+                            "name": "Customer Request",
+                            "action": "add"
+                        }
+                    ],
+                    "metadata": [
+                        {
+                            "name": "changeDate",
+                            "value": "2019-12-24T05:56:46.956Z",
+                            "metadataType": "Operational"
+                        },
+                        {
+                            "name": "salesChannel",
+                            "value": "Retail",
+                            "metadataType": "Operational"
+                        },
+                        {
+                            "name": "originalSalesChannel",
+                            "value": "Retail",
+                            "metadataType": "Operational"
+                        },
+                        {
+                            "name": "userId",
+                            "value": "digitalexp-api-app-id",
+                            "metadataType": "Operational"
+                        },
+                        {
+                            "name": "productQualification",
+                            "value": "02d8cd8eea2d44e58f2c6ced71bba6ca;2f4f41f2-10ae-4eb8-8e8c-d9767a62b81b;8b3e1ff3945c4814b46f6c4e14d23271;eac3af3dedae4dca872bfbe2a3b8b5c0",
+                            "metadataType": "Operational"
+                        }
+                    ],
+                    "stock": [
+                        {
+                            "stockAvailabilityStatus": "inStock",
+                            "stockAvailabilityQuantity": 328
+                        }
+                    ],
+                    "stockReservation": [
+                        {
+                            "id": "2274352366"
+                        }
+                    ],
+                    "externalIdentifier": [
+                        {
+                            "type": "amdocsInternal",
+                            "id": "ShoppingCart_01555101-4454-44bc-a0a8-2220a8800387_CartItem_04501150-1440-4f8d-822a-208028a20664"
+                        }
+                    ]
+                }
+            ],
+            "modifyReason": [
+                {
+                    "name": "Customer Request",
+                    "action": "add"
+                }
+            ],
+            "metadata": [
+                {
+                    "name": "changeDate",
+                    "value": "2019-12-24T05:56:46.956Z",
+                    "metadataType": "Operational"
+                },
+                {
+                    "name": "salesChannel",
+                    "value": "Retail",
+                    "metadataType": "Operational"
+                },
+                {
+                    "name": "originalSalesChannel",
+                    "value": "Retail",
+                    "metadataType": "Operational"
+                },
+                {
+                    "name": "userId",
+                    "value": "digitalexp-api-app-id",
+                    "metadataType": "Operational"
+                },
+                {
+                    "name": "productQualification",
+                    "value": "02d8cd8eea2d44e58f2c6ced71bba6ca;2f4f41f2-10ae-4eb8-8e8c-d9767a62b81b;8b3e1ff3945c4814b46f6c4e14d23271;eac3af3dedae4dca872bfbe2a3b8b5c0",
+                    "metadataType": "Operational"
+                }
+            ],
+            "externalIdentifier": [
+                {
+                    "type": "amdocsInternal",
+                    "id": "ShoppingCart_01555101-4454-44bc-a0a8-2220a8800387_CartItem_10540404-1514-4a9c-8088-088aa0000468"
+                }
+            ]
+        }
+    ],
+    "orderTotalPrice": [
+        {
+            "recurringChargePeriod": "month",
+            "recurringChargePeriodLength": 1,
+            "priceType": "RC",
+            "price": {
+                "taxIncludedAmount": {
+                    "unit": "USD",
+                    "value": 51
+                },
+                "dutyFreeAmount": {
+                    "unit": "USD",
+                    "value": 46.37
+                },
+                "taxAmount": {
+                    "unit": "USD",
+                    "value": 4.63
+                },
+                "taxRate": 10.0
+            },
+            "finalPrice": {
+                "taxIncludedAmount": {
+                    "unit": "USD",
+                    "value": 51
+                },
+                "dutyFreeAmount": {
+                    "unit": "USD",
+                    "value": 46.37
+                },
+                "taxAmount": {
+                    "unit": "USD",
+                    "value": 4.63
+                },
+                "taxRate": 10.0
+            },
+            "standalonePrice": {
+                "taxIncludedAmount": {
+                    "unit": "USD",
+                    "value": 51
+                },
+                "dutyFreeAmount": {
+                    "unit": "USD",
+                    "value": 46.37
+                },
+                "taxAmount": {
+                    "unit": "USD",
+                    "value": 4.63
+                },
+                "taxRate": 10.0
+            }
+        },
+        {
+            "priceType": "OC",
+            "price": {
+                "taxIncludedAmount": {
+                    "value": 38.5
+                },
+                "dutyFreeAmount": {
+                    "value": 35
+                },
+                "taxAmount": {
+                    "value": 3.5
+                },
+                "taxRate": 10.0
+            },
+            "finalPrice": {
+                "taxIncludedAmount": {
+                    "value": 38.5
+                },
+                "dutyFreeAmount": {
+                    "value": 35
+                },
+                "taxAmount": {
+                    "value": 3.5
+                },
+                "taxRate": 10.0
+            },
+            "standalonePrice": {
+                "taxIncludedAmount": {
+                    "value": 38.5
+                },
+                "dutyFreeAmount": {
+                    "value": 35
+                },
+                "taxAmount": {
+                    "value": 3.5
+                },
+                "taxRate": 10.0
+            }
+        }
+    ],
+    "channel": [
+        {
+            "id": "retail"
+        }
+    ]
+}
