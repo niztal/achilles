@@ -7,27 +7,33 @@ export class EntityDrawer {
 
     draw() {
         const entities = [];
-        this.drawEntity("ProductOrder", this.entity, entities);
+        this.drawEntity("ProductOrder", this.entity, null, entities);
         return entities;
     }
 
-    drawEntity(name, entity, entities) {
+    drawEntity(name, entity, parentEntityNode, entities) {
         let entityNode;
         if (!Array.isArray(entity)) {
             entityNode = new EntityNodeModel(name);
-            entityNode.setPosition(100, Math.random() * 500);
+            if (name === "ProductOrder" || name === "orderItem") {
+                entityNode.setPosition(1000, 500);
+            } else {
+                entityNode.setPosition(100, Math.random() * 500);
+            }
             entities.push(entityNode);
         }
         for (const prop in entity) {
             if (typeof entity[prop] === "object") {
-                const subEntity = this.drawEntity(Array.isArray(entity) ? name : prop, entity[prop], entities);
-                if (entityNode && subEntity) {
-                    entityNode.getOutPort().link(subEntity.getInPort());
-                }
+                const subEntityName = Array.isArray(entity) ? name : prop;
+                this.drawEntity(subEntityName, entity[prop], entityNode || parentEntityNode, entities);
             } else {
                 entityNode.addField(prop, entity[prop]);
             }
         }
-        return entityNode;
+        if (parentEntityNode && entityNode) {
+            if (parentEntityNode.name === "ProductOrder" && entityNode.name === "orderItem") {
+                parentEntityNode.getOutPort().link(entityNode.getInPort());
+            }
+        }
     }
 }

@@ -47,17 +47,24 @@ export default () => {
     // model.addAll(node1, node2, link1)
 
     const entityDrawer = new EntityDrawer(order);
-    const entities = entityDrawer.draw(order);
+    const entities = entityDrawer.draw();
 
     entities.forEach(entity => {
-        if (entity.name === "ProductOrder" || entity.name === "orderItem") {
             const outLink = entity.getOutLink();
+            model.addNode(entity);
+
             if (outLink) {
                 model.addLink(outLink);
-                model.addNode(entity);
             }
-        }
     });
+
+    // var node1 = new EntityNodeModel("ProductOrder");
+    // var node2 = new EntityNodeModel("OrderItem");
+
+    // node1.getOutPort().link(node2.getInPort());
+
+    // model.addLink(node1.getOutLink());
+    // model.addAll(node1, node2);
 
     engine.setDiagramModel(model);
 
